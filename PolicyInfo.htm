@@ -12,12 +12,12 @@
 <body>
 	<div class="container">
 		
-		<div class="policyinfo-content">
+		<div class="policyinfo-content .input-div">
 			<form action="#">			
 				<h2 class="title" id="Policyinfo">Policy&nbsp&nbspinformation</h2>
            		<div class="input-div one">           		   
            		   <div class="div">
-           		   		<h5>Name</h5>
+           		   		<h5> &nbsp&nbsp&nbsp&nbsp&nbspName</h5>
            		   		<input type="text" class="input" id="name">                    
            		   </div>
            		</div>
@@ -76,7 +76,7 @@
         <h2 class="title" id="Policyinfo">  &nbsp</h2>
               <div class="input-div one">                  
                  <div class="div">
-                    <h5>Term type</h5>
+                    <h5>&nbsp&nbsp&nbsp&nbsp&nbspTerm&nbsptype</h5>
                     <input type="text" class="input" id="termtype">
                  </div>
               </div>
@@ -109,7 +109,7 @@
               </div>
 
 
-              <div class="input-div one">
+              <div class="input-div ">
                  <div class="i">                      
                  </div>
                  <div class="div">
@@ -118,7 +118,7 @@
                  <input type="radio" id="ltayes" name="lta" value="ltayes" disabled="true">
                   <label for="ltayes">Yes</label>
                   <input type="radio" id="ltano" name="lta" value="ltano" checked="true">
-                  <label for="ltano">No</label><br> 
+                  <label for="ltano">No</label>
               </div>              
 
 
@@ -137,11 +137,11 @@
 </button>
 
 <div class="chat-popup" id="myForm">
-  <form class="form-container">
+  <form class="form-container" borders="solid">
     <h1 align="center">Hi.. I am Chatbot</h1>
 
-    <label for="msg"><b>Message</b></label>
-    <textarea placeholder="Type message.." name="msg" required></textarea>
+    <!-- <label for="msg"><b>Message</b></label> -->
+    <textarea placeholder="Type Your Queries.." name="msg" required></textarea>
 
     <button type="submit" class="chatbot-send-button">Send</button>
     <button type="button" class="chatbot-send-button" onclick="closeForm()">Close</button>
